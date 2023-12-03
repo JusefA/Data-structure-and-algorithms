@@ -1,0 +1,17 @@
+a = int(input(""))
+b = int(input(""))
+
+sum = a + b
+minus = a - b
+times = a * b
+quotinent = a / b
+remainder = a % b
+exponent = a ** b
+
+
+print(f"{a} + {b} is {sum}")
+print(f"{a} - {b} is {minus}")
+print(f"{a} * {b} is {times}")
+print(f"{a} / {b} is {quotinent}")
+print(f"{a} % {b} is {remainder}")
+print(f"{a} ^ {b} is {exponent}")
